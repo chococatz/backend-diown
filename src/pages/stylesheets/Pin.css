@@ -1,0 +1,81 @@
+.pin-content{
+    padding-left: 45px;
+    padding-top: 50px;
+    display: inline-block;
+}
+
+.pin-table{
+    padding-left: 15px;
+    padding-top: 26px;
+}
+
+.header-pin-table{
+    background-color: #edf2f7;
+    display: inline-flex;
+}
+
+.pin-table .header-pin-table .header-pin-num{
+    padding-left: 30px;
+    padding-right: 220px;
+}
+
+.pin-table .header-pin-table .header-pin-name{
+    padding-right: 400px;
+}
+
+.pin-table .header-pin-table .header-pin-location{
+    padding-right: 499px;
+}
+
+.pin-table .header-pin-table .header-pin-actions{
+    padding-right: 288px;
+}
+
+.content-pin-table{
+    display: inline-flex;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.185);
+    width: 99%;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    color: rgba(0, 0, 0, 0.555);
+}
+
+.pin-table .content-pin-table .content-pin-num{
+    padding-left: 30px;
+    padding-right: 142px;
+}
+
+.pin-table .content-pin-table .content-pin-name{
+    position: absolute;
+    left: 275px;
+}
+
+.pin-table .content-pin-table .content-pin-location{
+    position: absolute;
+    left: 747px;
+}
+
+.pin-table .content-pin-table .content-pin-delete{
+    position: absolute;
+    left: 1312px;
+    cursor: pointer;
+}
+
+.search-pin-bar{
+    font-family: 'Readex Pro', sans-serif;
+    position: absolute;
+    padding: 6px 5px 6px 30px;
+    border-radius: 5px;
+    border: 1px solid #767676;
+    color: #767676;
+    font-size: 15px;
+    top: 104px;
+    left: 1428px;
+}
+
+.search-pin-icon{
+    position: absolute;
+    top: 109px;
+    left: 1433px;
+    color: #767676;
+}

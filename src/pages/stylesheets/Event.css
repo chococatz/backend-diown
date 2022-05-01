@@ -1,0 +1,111 @@
+.event-content{
+    padding-left: 45px;
+    padding-top: 50px;
+    display: inline-block;
+}
+
+.addevent-button{
+    font-family: 'Readex Pro', sans-serif;
+    left: 1360px;
+    position: relative;
+    background-color: #5d5eff;
+    border-radius: 5px;
+    border: 0px;
+    color: white;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.event-table{
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.header-event-table{
+    background-color: #edf2f7;
+    display: inline-flex;
+}
+
+.event-table .header-event-table .header-event-num{
+    padding-left: 30px;
+    padding-right: 150px;
+}
+
+.event-table .header-event-table .header-event-name{
+    padding-right: 270px;
+}
+
+.event-table .header-event-table .header-event-location{
+    padding-right: 310px;
+}
+
+.event-table .header-event-table .header-event-startdate{
+    padding-right: 200px;
+}
+
+.event-table .header-event-table .header-event-enddate{
+    padding-right: 250px;
+}
+
+.event-table .header-event-table .header-event-actions{
+    padding-right: 63px;
+}
+
+.content-event-table{
+    display: inline-flex;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.185);
+    width: 99%;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    color: rgba(0, 0, 0, 0.555);
+}
+
+.event-table .content-event-table .content-event-num{
+    padding-left: 30px;
+    padding-right: 142px;
+}
+
+.event-table .content-event-table .content-event-name{
+    position: absolute;
+    left: 206px;
+}
+
+.event-table .content-event-table .content-event-location{
+    position: absolute;
+    left: 566px;
+}
+
+.event-table .content-event-table .content-event-startdate{
+    position: absolute;
+    left: 942px;
+}
+
+.event-table .content-event-table .content-event-enddate{
+    position: absolute;
+    left: 1219px;
+}
+
+.event-table .content-event-table .content-event-edit{
+    position: absolute;
+    left: 1536px;
+    cursor: pointer;
+}
+
+.search-event-bar{
+    font-family: 'Readex Pro', sans-serif;
+    position: absolute;
+    padding: 6px 5px 6px 30px;
+    border-radius: 5px;
+    border: 1px solid #767676;
+    color: #767676;
+    font-size: 15px;
+    top: 104px;
+    left: 1308px;
+}
+
+.search-event-icon{
+    position: absolute;
+    top: 109px;
+    left: 1313px;
+    color: #767676;
+}

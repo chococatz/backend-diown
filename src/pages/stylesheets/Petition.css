@@ -1,0 +1,81 @@
+.peti-content{
+    padding-left: 45px;
+    padding-top: 50px;
+    display: inline-block;
+}
+
+.peti-table{
+    padding-left: 15px;
+    padding-top: 26px;
+}
+
+.header-peti-table{
+    background-color: #edf2f7;
+    display: inline-flex;
+}
+
+.peti-table .header-peti-table .header-peti-num{
+    padding-left: 30px;
+    padding-right: 220px;
+}
+
+.peti-table .header-peti-table .header-peti-topic{
+    padding-right: 500px;
+}
+
+.peti-table .header-peti-table .header-peti-date{
+    padding-right: 500px;
+}
+
+.peti-table .header-peti-table .header-peti-actions{
+    padding-right: 248px;
+}
+
+.content-peti-table{
+    display: inline-flex;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.185);
+    width: 99%;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    color: rgba(0, 0, 0, 0.555);
+}
+
+.peti-table .content-peti-table .content-peti-num{
+    padding-left: 30px;
+    padding-right: 142px;
+}
+
+.peti-table .content-peti-table .content-peti-topic{
+    position: absolute;
+    left: 276px;
+}
+
+.peti-table .content-peti-table .content-peti-date{
+    position: absolute;
+    left: 816px;
+}
+
+.peti-table .content-peti-table .content-peti-actions{
+    position: absolute;
+    left: 1353px;
+    cursor: pointer;
+}
+
+.search-petition-bar{
+    font-family: 'Readex Pro', sans-serif;
+    position: absolute;
+    padding: 6px 5px 6px 30px;
+    border-radius: 5px;
+    border: 1px solid #767676;
+    color: #767676;
+    font-size: 15px;
+    top: 104px;
+    left: 1428px;
+}
+
+.search-petition-icon{
+    position: absolute;
+    top: 109px;
+    left: 1433px;
+    color: #767676;
+}

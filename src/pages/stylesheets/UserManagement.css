@@ -1,0 +1,81 @@
+.user-content{
+    padding-left: 45px;
+    padding-top: 50px;
+    display: inline-block;
+}
+
+.user-table{
+    padding-left: 15px;
+    padding-top: 26px;
+}
+
+.header-user-table{
+    background-color: #edf2f7;
+    display: inline-flex;
+}
+
+.user-table .header-user-table .header-user-num{
+    padding-left: 30px;
+    padding-right: 220px;
+}
+
+.user-table .header-user-table .header-user-name{
+    padding-right: 393px;
+}
+
+.user-table .header-user-table .header-user-email{
+    padding-right: 524px;
+}
+
+.user-table .header-user-table .header-user-actions{
+    padding-right: 288px;
+}
+
+.content-user-table{
+    display: inline-flex;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.185);
+    width: 99%;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    color: rgba(0, 0, 0, 0.555);
+}
+
+.user-table .content-user-table .content-user-num{
+    padding-left: 30px;
+    padding-right: 142px;
+}
+
+.user-table .content-user-table .content-user-name{
+    position: absolute;
+    left: 275px;
+}
+
+.user-table .content-user-table .content-user-email{
+    position: absolute;
+    left: 747px;
+}
+
+.user-table .content-user-table .content-user-delete{
+    position: absolute;
+    left: 1312px;
+    cursor: pointer;
+}
+
+.search-user-bar{
+    font-family: 'Readex Pro', sans-serif;
+    position: absolute;
+    padding: 6px 5px 6px 30px;
+    border-radius: 5px;
+    border: 1px solid #767676;
+    color: #767676;
+    font-size: 15px;
+    top: 104px;
+    left: 1428px;
+}
+
+.search-user-icon{
+    position: absolute;
+    top: 109px;
+    left: 1433px;
+    color: #767676;
+}

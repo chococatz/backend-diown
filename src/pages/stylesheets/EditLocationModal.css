@@ -1,0 +1,68 @@
+.edit-location-modalBackground{
+    z-index: 9999;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(200, 200, 200, 0.35);
+}
+
+.edit-location-modalContainer{
+    width: 660px;
+    height: 560px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.edit-location-modalContainer .edit-location-modalHeader{
+    display: inline-block;
+    text-align: center;
+}
+
+.edit-location-modalContainer .edit-location-modalHeader p{
+    font-size: 20px;
+    font-weight: 700px;
+}
+
+.closeIcon-edit-location{
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+    margin: 0;
+}
+
+.edit-location-modalContainer .edit-location-modalBody{
+    padding-top: 10px;
+}
+
+.edit-location-modalContainer .edit-location-modalBody p{
+    padding-left: 15px;
+    padding-bottom: 3px;
+}
+
+.edit-location-modalContainer .edit-location-modalFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.save-edit-location-button{
+    font-family: 'Readex Pro', sans-serif;
+    width: 250px;
+    height: 40px;
+    border: none;
+    background-color: #3751FF;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-top: 420px;
+    z-index: 9999;
+}

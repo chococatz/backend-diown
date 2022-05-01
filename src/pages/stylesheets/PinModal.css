@@ -1,0 +1,68 @@
+.pin-location-modalBackground{
+    z-index: 9999;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(200, 200, 200, 0.35);
+}
+
+.pin-location-modalContainer{
+    width: 660px;
+    height: 660px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.pin-location-modalContainer .pin-location-modalHeader{
+    display: inline-block;
+    text-align: center;
+}
+
+.pin-location-modalContainer .pin-location-modalHeader p{
+    font-size: 20px;
+    font-weight: 700px;
+}
+
+.closeIcon-pin-location{
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+    margin: 0;
+}
+
+.pin-location-modalContainer .pin-location-modalBody{
+    padding-top: 10px;
+}
+
+.pin-location-modalContainer .pin-location-modalBody p{
+    padding-left: 15px;
+    padding-bottom: 3px;
+}
+
+.pin-location-modalContainer .pin-location-modalFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.delete-pin-button{
+    font-family: 'Readex Pro', sans-serif;
+    width: 250px;
+    height: 40px;
+    border: none;
+    background-color: #EE5656;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-top: 420px;
+    z-index: 9999;
+}

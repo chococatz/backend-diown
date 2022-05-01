@@ -1,0 +1,214 @@
+.add-event-content{
+    display: grid;
+    height: 540px;
+    place-items: center;
+    text-align: center;
+}
+
+.up_img-event-container{
+    width: 1150px;
+    position: absolute;
+    left: 500px;
+}
+
+.up_img-event-container .up_img-event-wrapper{
+    position: relative;
+    height: 350px;
+    width: 100%;
+    border: 2px dashed #dadada;
+    border-radius: 20px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#custom-up-btn{
+    color: #767676;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+.up_img-event-wrapper .up_img-icon .upload-event-icon{
+    width: 150px;
+    height: 150px;
+}
+
+.up_img-event-wrapper .up_img-text{
+    font-size: 30px;
+    color: #b4b4b4;
+}
+
+.up_img-preview{
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+#upload-event-again img{
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+}
+
+#upload-event-again img:hover{
+    opacity: .3;
+}
+
+.content-event-container{
+    position: fixed;
+    width: calc(100% - 250px);
+    left: 500px;
+    top: 500px;
+}
+
+.event-topic-text{
+    padding-top: 55px;
+}
+
+.event-name-text{
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+.input-event-name{
+    height: 35px;
+    width: 500px;
+    border-radius: 5px;
+    border: 1px solid #767676;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.event-start-text{
+    font-size: 20px;
+    padding-right: 28px;
+}
+
+.input-event-start{
+    height: 35px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #767676;
+    padding-left: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.event-end-text{
+    font-size: 20px;
+    padding-right: 38px;
+}
+
+.input-event-end{
+    height: 35px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #767676;
+    padding-left: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.event-location-text{
+    font-size: 20px;
+    padding-right: 40px;
+}
+
+.input-event-location{
+    font-family: 'Readex Pro', sans-serif;
+    height: 35px;
+    width: 481px !important;
+    border-radius: 5px;
+    border: 1px solid #767676;
+    padding-left: 30px !important;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.location-icon{
+    position: absolute;
+    color: #767676;
+    top: 285px;
+    left: 128px;
+}
+
+.event-start-time-text{
+    padding-left: 15px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+.input-event-start-time{
+    height: 35px;
+    width: 219px;
+    border-radius: 5px;
+    border: 1px solid #767676;
+    padding-left: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.event-end-time-text{
+    padding-left: 15px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+.input-event-end-time{
+    height: 35px;
+    width: 219px;
+    border-radius: 5px;
+    border: 1px solid #767676;
+    padding-left: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.edit-event-btn{
+    position: absolute;
+    left: 224px;
+    padding-top: 40px;
+}
+
+.edit-event-btn button{
+    font-family: 'Readex Pro', sans-serif;
+    padding: 15px 55px 15px 55px;
+    background-color: #FFA800;
+    color: #fff;
+    border: 0px solid;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.delete-event-btn{
+    position: absolute;
+    left: 437px;
+    padding-top: 40px;
+}
+
+.delete-event-btn button{
+    font-family: 'Readex Pro', sans-serif;
+    padding: 15px 55px 15px 55px;
+    background-color: #EE5656;
+    color: #fff;
+    border: 0px solid;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+::-webkit-calendar-picker-indicator{
+    cursor: pointer;
+}

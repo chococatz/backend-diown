@@ -1,0 +1,32 @@
+.user-modaldeletedBackground{
+    z-index: 9999;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.user-modaldeletedContainer{
+    width: 300px;
+    height: 150px;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.user-modaldeletedContainer .user-modaldeletedBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    text-align: center;
+}
+
+.user-modaldeletedContainer .user-modaldeletedBody p{
+    margin: 0;
+    margin-top: 40px;
+}

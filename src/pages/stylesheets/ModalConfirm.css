@@ -1,0 +1,63 @@
+.user-modalconfirmBackground{
+    z-index: 9999;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.user-modalconfirmContainer{
+    width: 300px;
+    height: 150px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.user-modalconfirmContainer .user-modalconfirmBody{
+    text-align: center;
+}
+
+.user-modalconfirmContainer .user-modalconfirmBody p{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.user-modalconfirmContainer .user-modalconfirmFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.delete-user-button-yes{
+    font-family: 'Readex Pro', sans-serif;
+    width: 100px;
+    height: 40px;
+    border: none;
+    background-color: #3751FF;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-right: 25px;
+}
+
+.delete-user-button-no{
+    font-family: 'Readex Pro', sans-serif;
+    width: 100px;
+    height: 40px;
+    border: none;
+    background-color: #ee5656;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}

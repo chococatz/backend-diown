@@ -1,0 +1,68 @@
+.location-modalBackground{
+    z-index: 9999;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(200, 200, 200, 0.35);
+}
+
+.location-modalContainer{
+    width: 660px;
+    height: 560px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.location-modalContainer .location-modalHeader{
+    display: inline-block;
+    text-align: center;
+}
+
+.location-modalContainer .location-modalHeader p{
+    font-size: 20px;
+    font-weight: 700px;
+}
+
+.closeIcon-location{
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+    margin: 0;
+}
+
+.location-modalContainer .location-modalBody{
+    padding-top: 10px;
+}
+
+.location-modalContainer .location-modalBody p{
+    padding-left: 15px;
+    padding-bottom: 3px;
+}
+
+.location-modalContainer .location-modalFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.save-location-button{
+    font-family: 'Readex Pro', sans-serif;
+    width: 250px;
+    height: 40px;
+    border: none;
+    background-color: #3751FF;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-top: 420px;
+    z-index: 9999;
+}
